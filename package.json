@@ -1,0 +1,27 @@
+{
+    "name": "pingg-express",
+    "description": "Simple Hello World Node.js sample for Google App Engine Standard Environment.",
+    "version": "0.0.1",
+    "private": true,
+    "license": "Apache-2.0",
+    "author": "CS1530Group11",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zpg6/pingg-express.git"
+    },
+    "engines": {
+      "node": ">=8.0.0"
+    },
+    "scripts": {
+      "start": "node app.js",
+      "test": "mocha --exit test/*.test.js"
+    },
+    "dependencies": {
+      "express": "^4.16.3"
+    },
+    "devDependencies": {
+      "mocha": "^8.0.0",
+      "supertest": "^4.0.2"
+    }
+  }
+  
